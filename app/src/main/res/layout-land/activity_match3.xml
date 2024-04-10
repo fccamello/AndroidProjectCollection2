@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="90dp"
         android:layout_marginEnd="50dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,35 +20,84 @@
 
         <Button
             android:id="@+id/matchbtn1"
-            android:layout_width="70dp"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/matchbtn2"
-            android:layout_width="70dp"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/matchbtn3"
-            android:layout_width="70dp"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/matchbtn4"
-            android:layout_width="70dp"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/matchbtn5"
-            android:layout_width="70dp"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2">
+
+        <Button
+            android:id="@+id/matchbtn6"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/matchbtn7"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/matchbtn8"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/matchbtn9"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/matchbtn10"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
@@ -60,7 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
         android:layout_weight="1"
         android:orientation="horizontal"
@@ -69,88 +118,39 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <Button
-            android:id="@+id/button17"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn11"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button18"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn12"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button19"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn13"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button20"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn14"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button21"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn15"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="50dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn2">
-
-        <Button
-            android:id="@+id/matchbtn5"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="5dp"
-            android:layout_weight="1" />
-
-        <Button
-            android:id="@+id/matchbtn7"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="5dp"
-            android:layout_weight="1" />
-
-        <Button
-            android:id="@+id/matchbtn7"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="5dp"
-            android:layout_weight="1" />
-
-        <Button
-            android:id="@+id/matchbtn8"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="5dp"
-            android:layout_weight="1" />
-
-        <Button
-            android:id="@+id/matchbtn9"
-            android:layout_width="70dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="5dp"
-            android:layout_weight="1" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -158,7 +158,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -166,46 +166,47 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
         <Button
-            android:id="@+id/button24"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn16"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button28"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn17"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button27"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn18"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button26"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn19"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button25"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn20"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="50dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -213,36 +214,36 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
 
         <Button
-            android:id="@+id/button29"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn21"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button30"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn22"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button31"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn23"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button32"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn24"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button33"
-            android:layout_width="70dp"
+            android:id="@+id/matchbtn25"
+            android:layout_width="60dp"
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:layout_weight="1" />
@@ -257,8 +258,46 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/btn2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
+        app:layout_constraintVertical_bias="0.167" />
+
+    <Button
+        android:id="@+id/btnmatchRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toEndOf="@+id/btnmatchReturn"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <Button
+        android:id="@+id/btnmatchReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="252dp"
+        android:text="RETURN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Score: 0"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
