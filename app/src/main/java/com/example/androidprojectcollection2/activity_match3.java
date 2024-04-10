@@ -2,6 +2,7 @@ package com.example.androidprojectcollection2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -21,7 +22,7 @@ public class activity_match3 extends AppCompatActivity {
     Toast toast;
     int[][] position = new int[5][5];
     Button firstClickedButton = null;
-    Button btnrestart;
+    Button btnrestart, btnreturn;
     TextView scoreText;
     int score = 0;
 
@@ -31,6 +32,7 @@ public class activity_match3 extends AppCompatActivity {
         setContentView(R.layout.activity_match3);
 
         score = 0;
+
 
         buttons = new Button[][]{
                 {findViewById(R.id.matchbtn1), findViewById(R.id.matchbtn2), findViewById(R.id.matchbtn3), findViewById(R.id.matchbtn4), findViewById(R.id.matchbtn5)},
@@ -49,6 +51,16 @@ public class activity_match3 extends AppCompatActivity {
                 scoreText.setText("Score: " + score);
                 firstClickedButton = null;
 //                checkMatches();
+            }
+        });
+
+        btnreturn = findViewById(R.id.btnmatchReturn);
+
+        btnreturn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity_match3.this, MainActivity.class);
+                startActivity(intent);
             }
         });
 
