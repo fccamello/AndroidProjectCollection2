@@ -92,7 +92,7 @@ public class activity_match3 extends AppCompatActivity {
 
 
         checkMatches();
-        score = 0;
+//        score = 0;
 
     }
 
